@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/editTextN1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number 1"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:id="@+id/editTextN2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number 2"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:id="@+id/editTextOp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Operator (+, -, *, /)" />
+
+
+    <Button
+        android:id="@+id/buttonCalculadora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora" />
+
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: " />
+</LinearLayout>
